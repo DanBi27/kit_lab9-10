@@ -1,0 +1,23 @@
+.user-card {
+  padding: 20px;
+  display: flex;
+  border: 1px solid #bbb;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.user-card > .contacts {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.user-card > .contacts > .full-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.user-card > .age {
+  margin-left: auto;
+}
